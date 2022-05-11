@@ -1,10 +1,84 @@
 header{
-	background: rgba(229, 117, 0, 0.8);
+	background: rgba(243, 245, 252, 1);
 	padding: 20px 0;
+	font-family: fantasy;
+	font-size: 25px;
 }
 
 .caja{
-	width: 940px;
 	text-align: center;
 	margin: 0 auto;
 }
+
+.logo-head{
+	margin-left: 15px;
+}
+
+body{
+background: rgba(243, 245, 252, 1);
+}
+
+main{
+	width: 940px;
+	height: 500px;
+	margin: 10px auto;
+	background: rgba(243, 245, 252, 1);
+}
+
+
+.texto-a-usar{
+	display: block;
+	width: 250px;
+	height: 400px;
+	margin-bottom: 5px;
+	resize: none;
+}
+
+.encriptador button{
+	padding: 10px;
+	font-size: 15px;
+}
+
+.pre-encriptador{
+	margin-left: 20px;
+	width: 40%;
+	float: left;
+}
+
+
+.post-encriptador{
+	vertical-align: top;
+	margin-left: 40%;
+}
+
+.logo-texto-vacio{
+	width: 250px;
+	height: 400px;
+	margin-left: 100px;
+}
+
+.resultado{
+	width: 500px;
+	height: 350px;
+	padding: 15px;
+	border-radius: 25px;
+	margin-bottom: 5px;
+	resize: none;
+}
+
+
+footer{
+	background: rgba(243, 245, 252, 1);
+	color: black;
+	padding: 20px 0;
+}
+
+.oculto{
+	display: none;
+}
+
+
+
+
+
+
