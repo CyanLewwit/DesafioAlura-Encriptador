@@ -34,6 +34,10 @@ main{
 	resize: none;
 }
 
+.encriptador{
+	height: 500px;
+}
+
 .encriptador button{
 	padding: 10px;
 	font-size: 15px;
@@ -77,6 +81,30 @@ footer{
 	display: none;
 }
 
+@media screen and (max-width: 480px){
+	main{
+		height: 800px;
+	}
+	.texto-a-usar{
+		height: 250px;
+	}
+	.pre-encriptador{
+		float: none;
+	}
+
+	.post-encriptador{
+		margin-left: 10px;
+	}
+
+	.logo-texto-vacio{
+		margin-left: 15px;
+	}
+
+	.resultado{
+		width: 250px;
+		height: 300px;
+	}
+}
 
 
 
